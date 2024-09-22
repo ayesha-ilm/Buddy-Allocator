@@ -39,20 +39,21 @@ Prints the state of the free lists, showing available blocks for each block size
 ## Usage
 
 1. **Initialize Allocator**:
-   ```c
+```c
    init_allocator(4, 64);
-
+```
 2.  **Allocate Memory**:
 ```c
 Addr ptr = my_malloc(16);
-
+```
 3. **Free Memory**:
 ```c
 my_free(ptr);
-
+```
 4. **View Free Lists**:
 ```c
 print();
+```c
 
 ## Example
 
