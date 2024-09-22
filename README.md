@@ -42,16 +42,16 @@ Prints the state of the free lists, showing available blocks for each block size
    ```c
    init_allocator(4, 64);
 
-## Allocate Memory
-
+2.  **Allocate Memory**:
+```c
 Addr ptr = my_malloc(16);
 
-## Free Memory
-
+3. **Free Memory**:
+```c
 my_free(ptr);
 
-## View Free Lists
-
+4. **View Free Lists**:
+```c
 print();
 
 ## Example
