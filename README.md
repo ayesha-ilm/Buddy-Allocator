@@ -56,7 +56,7 @@ print();
 ```
 
 ## Example
-
+```c
 int main() {
     init_allocator(4, 64);   // Initialize allocator with basic block size 4 and total memory 64
 
@@ -72,6 +72,7 @@ int main() {
 
     print();  // Print the free lists after deallocation
 }
+```
 
 ## Compiling and Running
 
