@@ -53,6 +53,7 @@ my_free(ptr);
 4. **View Free Lists**:
 ```c
 print();
+```
 
 ## Example
 
